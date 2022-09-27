@@ -10,7 +10,6 @@ object PathParser {
      * @return the generated Path object.
      */
     fun createPathFromPathData(pathData: String?): Path {
-        System.out.print("test");
         return PathParser.createPathFromPathData(pathData) ?: Path()
     }
 
